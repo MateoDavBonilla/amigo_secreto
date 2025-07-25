@@ -35,17 +35,24 @@ function mostrarLista() {
     }
     return;
 
-}
+};
 //Selecciona un amigo aleatorio y lo muestra como resultado en el HTML
 function sortearAmigo() {
-    
-    if (amigos == "") {
-        alert("No has añadido ningun amigo todavia")
+
+    if (resultado.innerHTML !== "") {
+
+        alert("Ya se ha seleccionado tu amigo secreto.");
+        alert("Si quieres volver a jugar presiona F5.");
+
+    } else if (amigos == "") {
+        alert("No has añadido ningun amigo todavia");
+
+
     } else {
         let indiceAmigos = Math.floor(Math.random() * amigos.length);
         let amigoSeleccionado = amigos[indiceAmigos];
         resultado.innerHTML = "Tu amigo secreto es " + amigoSeleccionado;
-    }
+    };
 
-    return ;
+    return;
 }
