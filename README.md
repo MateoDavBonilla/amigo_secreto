@@ -13,5 +13,4 @@ Este proyecto es una aplicación web simple desarrollada en **HTML, CSS y JavaSc
 
 Fortalecer habilidades en **lógica de programación**, estructuras de control, manipulación del DOM y uso de eventos en JavaScript. Esta práctica es ideal para quienes están dando sus primeros pasos en desarrollo web.
 
-## 📂 Estructura del proyecto
 
